@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+    background: #5c3e84;
+    color: #fabfa1;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+img{
+    width: 100%;
+}
+
+h3, h4{
+    letter-spacing: 4px;
+    line-height: 12px;
+    margin-bottom: 12px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+.section-center{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.gift-info h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.giveaway{
+    text-align: center;
+}
+
+.deadline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
