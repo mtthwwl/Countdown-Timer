@@ -15,10 +15,14 @@ img{
     width: 100%;
 }
 
-h3, h4{
+h2, h4{
     letter-spacing: 4px;
     line-height: 12px;
     margin-bottom: 12px;
+}
+
+h2{
+    font-size: 20px;
 }
 
 h4{
@@ -43,4 +47,37 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.gift-image{
+    margin-bottom: 32px;
+}
+
+.deadline-format{
+    background: #27173d;
+    color: #ecf0f1;
+    margin-right: 16px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.deadline-format span{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.deadline h4{
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.deadline-format div{
+    padding: 20px;
 }
